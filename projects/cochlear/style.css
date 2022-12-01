@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+:root {
+  --color-body-text: #000000;
+  --color-body-bg: #ffd700;
+  --color-links: #778899;
+  --color-links-hover: #89cff0;
+  --color-header-footer-bg: #c2b280;
+  --padding-header-footer: 4rem;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+  overflow-x: hidden;
+}
+
+img{
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+}
+
+#picture-1 p{
+  padding-bottom: 1em;
+}
+
+#picture-2 p{
+  padding-bottom: 1em;
+}
+
+#picture-3 p{
+  padding-top: 1em;
+}
+
+.center {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p {
+   font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+nav a {
+  color: var(--color-links)
+}
+
+a:hover{
+  color: var(--color-links-hover);
+}
+
+header{
+  margin-bottom: 4rem;
+  background-color: var(--color-header-footer-bg);
+  padding: var(--padding-header-footer);
+  text-align: center;
+}
+
+main{
+  padding: 1rem;
+}
+
+footer{
+  margin-top: 3rem;
+  text-align: center;
+  padding: var(--padding-header-footer);
+  background-color: var(--color-header-footer-bg);
+}

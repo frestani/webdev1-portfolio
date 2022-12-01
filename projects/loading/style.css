@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animation-container {
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  
+  /*background-color:*/
+  /*border-radius: 50%;*/
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  animation: move .5s alternate linear; 
+}
+
+.square:nth-child(1) {
+  background-color: red;
+  animation-delay: 0;
+}
+.square:nth-child(2) {
+  background-color: orange;
+  animation-delay: 0;
+}
+.square:nth-child(3) {
+  background-color: yellow;
+  animation-delay: 0;
+}
+.square:nth-child(4) {
+  background-color: green;
+  animation-delay: 0;
+}
+.square:nth-child(5) {
+  background-color: blue;
+  animation-delay: 0;
+}
+.square:nth-child(6) {
+  background-color: purple;
+  animation-delay: 0;
+}
+.square:nth-child(7) {
+  background-color: pink;
+  animation-delay: 0;
+}
+/* #loading {
+  position: absolute;
+  
+  border-radius: 1rem;
+  
+  left: 30%;
+  top: 20%;
+  
+  width: 20rem;
+  height: 3rem;
+  
+  background: linear-gradient(
+  50deg, pink, green);
+  
+  transform-origin: left;
+  
+  animation: expand-x 8s ease-in-out infinite;
+}
+
+@keyframes expand-x
+{
+   0% {
+    transform: scaleX(.01);
+}
+}
+*/
+
+#waiting {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  
+  height: 5rem;
+	width: 5rem;
+  border-radius: 50%;
+  border: 10px solid pink;
+  
+  animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+  
+  from {
+    transform: rotate(0deg);
+    border-top-color: green;
+  }
+  
+  to {
+    transform: rotate(360deg);
+    border-top-color: green; 
+  }
+}
+  
+  

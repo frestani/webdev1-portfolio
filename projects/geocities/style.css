@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+body {
+  margin: 0 auto;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F49%2F64%2FISqdvB.jpg&f=1&nofb=1&ipt=6c3bc47422077410cf7972046b94d67e2695e4b96f32a05033fe2fe0439f4a1e&ipo=images);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#smiley {
+  position: absolute;
+  width: 10%;
+  height: 50%
+  right 0;
+  top: 6%;
+}
+
+.lisa-frank {
+   
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/766/lisa-frank-products-main-1492528321.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.lisa-frank h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10rem;
+  background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/12/agifcolossal3opt1.gif);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 45%;
+  color: transparent;
+}
+
+.takashi-murakami {
+ 
+ 
+  background-image: url(https://i0.wp.com/artplugged.co.uk/wp-content/uploads/2020/10/takashi-murakami_Flower_superflat_2004_art_plugged.png?fit=2052%2C1508&ssl=1);
+  background-size: cover;
+  background-position: center;
+}
+
+.takashi-murakami h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10rem;
+
+  background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/12/agifcolossal3opt1.gif);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 45%;
+  color: transparent;
+}
+
+.james-turrell {
+  background-image: url(https://jamesturrell.com/wp-content/uploads/2013/03/fh_14_rgb1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.james-turrell h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10rem;
+
+  background-image: url(https://www.thisiscolossal.com/wp-content/uploads/2018/12/agifcolossal3opt1.gif);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 45%;
+  color: transparent;
+}
+
+.banner {
+  z-index: inherit;
+  background-color: yellow;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
