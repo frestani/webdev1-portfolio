@@ -7,12 +7,18 @@
 }
 
 :root {
-    background-color: darkolivegreen;
+    --color-bg: #509c53;
+    --color-text: #fabc3f;
 }
 
 body {
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
+    max-width: 40rem;
+    margin: 0 auto;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
 }
 
 header {
@@ -24,9 +30,15 @@ nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        gap: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
 }
+
+nav a {
+    color: rgb(153, 202, 55);
+    text-decoration: none;
+  }
 
 footer {
     text-align: center;
